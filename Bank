@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App de Jogo Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #222;
+      border: 1px solid #444;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    .balance {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      background-color: #4CAF50;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+    
+    .btn:hover {
+      background-color: #45a049;
+    }
+    
+    .games {
+      margin-top: 20px;
+    }
+    
+    .games .btn {
+      background-color: #000;
+    }
+    
+    .withdrawal-form {
+      margin-top: 20px;
+    }
+    
+    .withdrawal-form input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    
+    .withdrawal-form .btn {
+      margin-top: 10px;
+      background-color: #4CAF50;
+    }
+    
+    .withdrawal-form .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+  <script>
+    function handleWithdrawal() {
+      var withdrawalAmountInput = document.getElementById('withdrawal-amount');
+      var balanceElement = document.getElementById('balance');
+      
+      var withdrawalAmount = parseFloat(withdrawalAmountInput.value);
+      var currentBalance = parseFloat(balanceElement.textContent.replace('Saldo: $', ''));
+      
+      if (withdrawalAmount <= currentBalance) {
+        balanceElement.textContent = 'Enviado';
+        withdrawalAmountInput.value = '';
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Gerar dinheiro 💰   <!DOCTYPE html>
+<html>
+<head>
+    <title>Bandeira do Brasil</title>
+    <style>
+        .flag {
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>BR PIX  <img src="https://cdn.awsli.com.br/950/950939/arquivos/PIX.png" alt="PIX"></li></h1>
+        <span class="flag">&#x1F1E7;&#x1F1F7;</span>
+    </div>
+</body>
+</html>
+</h1>
+  <div class="container">
+    <div id="balance" class="balance">
+      Saldo: $5000 <img src="https://cdn.awsli.com.br/950/950939/arquivos/PIX.png" alt="PIX"></li>
+    </div>
+    
+    <div class="games">
+      <a class="btn" href="#">Gerar valor</a>
+      <a class="btn" href="#">CAIXA</a>
+      <a class="btn" href="#"> Conta 992****0</a>
+    </div>
+    
+    <a class="btn" href="#"> PIX</a>
+    </div>
+    
+    
+    <div class="withdrawal-form">
+      <input id="withdrawal-amount" type="number" placeholder="Valor para saque" step="0.01">
+      <a class="btn" href="#" onclick="handleWithdrawal(); return false;">Sacar</a>
+    </div>
+  </div>
+</body>
+</html>
